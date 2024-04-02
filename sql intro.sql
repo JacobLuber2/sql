@@ -1,0 +1,14 @@
+use bestbuy;
+select * from products;
+SELECT * FROM products WHERE price = 1400;
+SELECT * from products WHERE price = 13.99 OR price = 13.99;
+SELECT * FROM products WHERE NOT PRICE = 11.99;
+SELECT * FROM products ORDER BY price desc;
+SELECT * FROM Employees WHERE MiddleInitial IS null;
+SELECT DISTINCT price FROM products;
+SELECT * from employees where firstName LIKE 'j%';
+select * from products WHERE name = 'Macbook';
+select * from products where OnSale = 1;
+select avg(price) from products;
+select * from employees where title = "Geek Squad" AND middleInitial is null;
+select * from products where price between 500 AND 1200;
